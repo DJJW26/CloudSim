@@ -1,0 +1,70 @@
+=== First 40 lines (simulation startup) ===
+Starting random_npa
+Initialising...
+Starting CloudSim version 3.0
+Broker is starting...
+Datacenter is starting...
+Entities started.
+0.0: Broker: Cloud Resource List received with 1 resource(s)
+0.0: Broker: Trying to Create VM #0 in Datacenter
+0.0: Broker: Trying to Create VM #1 in Datacenter
+0.0: Broker: Trying to Create VM #2 in Datacenter
+0.0: Broker: Trying to Create VM #3 in Datacenter
+0.0: Broker: Trying to Create VM #4 in Datacenter
+0.0: Broker: Trying to Create VM #5 in Datacenter
+0.0: Broker: Trying to Create VM #6 in Datacenter
+0.0: Broker: Trying to Create VM #7 in Datacenter
+0.0: Broker: Trying to Create VM #8 in Datacenter
+0.0: Broker: Trying to Create VM #9 in Datacenter
+0.0: Broker: Trying to Create VM #10 in Datacenter
+0.0: Broker: Trying to Create VM #11 in Datacenter
+0.0: Broker: Trying to Create VM #12 in Datacenter
+0.0: Broker: Trying to Create VM #13 in Datacenter
+0.0: Broker: Trying to Create VM #14 in Datacenter
+0.0: Broker: Trying to Create VM #15 in Datacenter
+0.00: VM #0 has been allocated to the host #1
+0.00: VM #1 has been allocated to the host #1
+0.00: VM #2 has been allocated to the host #3
+0.00: VM #3 has been allocated to the host #3
+0.00: VM #4 has been allocated to the host #5
+0.00: VM #5 has been allocated to the host #5
+0.00: VM #6 has been allocated to the host #7
+0.00: VM #7 has been allocated to the host #7
+0.00: VM #8 has been allocated to the host #0
+0.00: VM #9 has been allocated to the host #0
+0.00: VM #10 has been allocated to the host #2
+0.00: VM #11 has been allocated to the host #2
+0.00: VM #12 has been allocated to the host #0
+0.00: VM #13 has been allocated to the host #2
+0.00: VM #14 has been allocated to the host #4
+0.00: VM #15 has been allocated to the host #4
+0.1: Broker: VM #0 has been created in Datacenter #3, Host #1
+
+=== [full per-timestep event log omitted for brevity - re-run via run.sh for complete output] ===
+
+=== Final results ===
+Simulation: Reached termination time.
+CloudInformationService: Notify all CloudSim entities for shutting down.
+Broker is shutting down...
+Datacenter is shutting down...
+Simulation completed.
+Received 0 cloudlets
+Simulation completed.
+
+Experiment name: random_npa
+Number of hosts: 10
+Number of VMs: 16
+Total simulation time: 86400.00 sec
+Energy consumption: 30.14 kWh
+Number of VM migrations: 0
+SLA: 0.00000%
+SLA perf degradation due to migration: 0.00%
+SLA time per active host: 0.00%
+Overall SLA violation: 0.00%
+Average SLA violation: 0.00%
+Number of host shutdowns: 3
+Mean time before a host shutdown: 300.10 sec
+StDev time before a host shutdown: 0.00 sec
+Mean time before a VM migration: NaN sec
+StDev time before a VM migration: NaN sec
+
