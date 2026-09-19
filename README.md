@@ -11,7 +11,11 @@ Requires JDK 8+ (any recent JDK works). No Maven, no internet access needed —
 `lib/cloudsim-3.0.3.jar` is a pre-built jar, bundled directly.
 
 ```bash
-bash run.sh
+bash run.sh        # Linux / macOS / Git Bash
+```
+
+```bat
+run.bat            REM Windows (double-click, or .\run.bat from PowerShell)
 ```
 
 This compiles everything and runs all four experiments back to back, printing
@@ -108,5 +112,7 @@ lib/cloudsim-3.0.3.jar   Pre-built CloudSim jar (official release, no Maven need
 src/                     Java source (see breakdown above)
 output_logs/             Console output from all four experiment runs
 cloudsim_results_summary.png   Comparison chart (Baseline vs RR vs PABFD vs MBFD)
-run.sh                   Compiles and runs all four experiments
+run.sh                   Compiles and runs all four experiments (Linux/macOS)
+run.bat                  Same as run.sh, for Windows (no bash/WSL needed)
+Assignment/              Assignment report (.docx) + presentation (.pptx)
 ```
